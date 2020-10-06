@@ -24,7 +24,7 @@ public class Machine {
         this.id = id;
     }
 
-    @Column(name = "type", nullable = false, length = 50)
+    @Column(name = "type", nullable = false, length = 40)
     public String getType() {
         return type;
     }
