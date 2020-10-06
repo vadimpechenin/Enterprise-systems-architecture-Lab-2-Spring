@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity
-@Table(name = "mashine")
+@Table(schema = "public", name = "machine")
 public class Machine {
     private long id;
     private String type;

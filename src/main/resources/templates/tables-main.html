@@ -13,6 +13,7 @@
         <div th:each="el : ${workers}" class="alert alert-info mt-2">
             <h3 th:text="${el.personnelNumber}"/>
             <p th:text="${el.fullName}"/>
+            <p th:text="${el.category}"/>
             <a th:text="${el.machine.type}"/>
         </div>
     </div>
