@@ -3,18 +3,9 @@ package com.example.wokers_machines_l2;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.wokers_machines_l2.entity.Worker;
-import com.example.wokers_machines_l2.entity.Machine;
-import org.springframework.beans.factory.annotation.Autowired;
-import com.example.wokers_machines_l2.service.MachineService;
-import com.example.wokers_machines_l2.service.WorkerService;
-
 @SpringBootApplication
 public class WokersMachinesL2Application {
-
-	@Autowired
-	private WorkerService workerService;
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(WokersMachinesL2Application.class, args);
 	}
